@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<main>
+
+    <header id="post-header" style="background-image: url('{{ page.header }}');">
+        <h1>{{ page.title | replace: " - Darien", "" }}</h1>
+    </header>
+
+    <main id="post-content">
+        <div id="post-margin">
+
+            {{ content }}
+
+            {% for post in site.posts %}
+                <a class="post-entry" href="{{ post.url }}">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.excerpt }}</p>
+                </a>
+            {% endfor %}
+        </div>
+    </main>
+
+</main>

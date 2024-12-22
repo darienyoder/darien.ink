@@ -1,0 +1,95 @@
+- name: Crossword Builder
+  type: software
+  link: /crossword-builder
+  image: /assets/images/headers/crossword-builder.png
+
+- name: Wilted
+  type: film
+  link: https://www.imdb.com/title/tt33044549/
+  image: /assets/images/headers/wilted.png
+
+- name: Charred Memory
+  type: film
+  link: https://www.imdb.com/title/tt33981582/
+  image: /assets/images/headers/charred-memory.png
+
+- name: Falling Sand
+  type: software
+  link: /falling-sand
+  image: /assets/images/headers/falling-sand.png
+
+- name: DestroyDog Bookmarklet
+  type: software
+  image: /assets/images/headers/destroydog.png
+  link: /destroydog
+
+- name: GRAB BAG - <i>Stage Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-STAGE-BUMP.mp4
+
+- name: GRAB BAG - <i>Gamer Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-DEGEN-BUMP_lowquality.mp4
+
+- name: GRAB BAG - <i>Arcade Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-ARCADE-BUMP_lowquality.mp4
+
+- name: GRAB BAG - <i>Highway Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-HIGHWAY-BUMP.mp4
+
+- name: The Agenda - <i>We'll Be Back</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-WellBeBack.mp4
+
+- name: The Agenda - <i>Fruit Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-APPLE-BUMP.mp4
+
+- name: The Agenda - <i>Tree Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-TREE-BUMP.mp4
+
+- name: The Agenda - <i>Static Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-TV-BUMP.mp4
+
+- name: Roguelike Pac-Man
+  type: game
+  link: https://gridlochgames.itch.io/21st-century-roguelike-pac-man
+  image: /assets/images/headers/pac-man.png
+
+- name: Echosearch
+  type: game
+  link: https://gridlochgames.itch.io/echosearch
+  image: /assets/images/headers/echosearch.png
+
+- name: Tiny Submarine
+  type: game
+  link: https://gridlochgames.itch.io/tiny-submarine
+  image: /assets/images/headers/tiny-submarine.png
+
+- name: <i>Scary Phone</i><br>Writer, Actor
+  type: sketch
+  link: https://www.youtube.com/watch?v=k2Q--jFRnzE
+
+- name: <i>Infinite Riddle</i><br>Writer, Animator
+  type: sketch
+  link: https://www.youtube.com/watch?v=Ln2_uvfFAnM
+
+- name: <i>The Sludge Factory</i><br>Writer, Actor
+  type: sketch
+  link: https://www.youtube.com/watch?v=Fm_RXgvLm4M
+
+- name: <i>Water for Men</i><br>Writer
+  type: sketch
+  link: https://www.youtube.com/watch?v=AiCySG-MU7E
+
+- name: <i>Apocalypse Bunker</i><br>Writer, Actor
+  type: sketch
+  link: https://www.youtube.com/watch?v=Zrtw_fU-afE
+
+- name: <i>Uneven Superpowers</i><br>Writer, Actor
+  type: sketch
+  link: https://www.youtube.com/watch?v=aW1DVJiKAkg

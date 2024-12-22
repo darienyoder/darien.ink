@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+    {%- include head.html -%}
+
+    <body {{% if page.url == "/" %}} onload="headerSetup();" {{% endif %}}>
+        {%- include navigation.html -%}
+
+        {%- include mobile-nav.html -%}
+
+        <!-- <div id="page-wrapper"> -->
+            <div id="page-content">
+                {{ content }}
+            </div>
+        <!-- </div> -->
+    </body>
+
+</html>
