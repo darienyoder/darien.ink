@@ -1,15 +1,10 @@
-- name: Crossword Builder
-  type: software
-  link: /crossword-builder
-  image: /assets/images/headers/crossword-builder.png
-
 - name: Wilted
-  type: film
+  type: Film
   link: https://www.imdb.com/title/tt33044549/
   image: /assets/images/headers/wilted.png
 
 - name: Charred Memory
-  type: film
+  type: Film
   link: https://www.imdb.com/title/tt33981582/
   image: /assets/images/headers/charred-memory.png
 
@@ -56,17 +51,17 @@
   link: /assets/video/bumpers/AG-TV-BUMP.mp4
 
 - name: Roguelike Pac-Man
-  type: game
+  type: Games
   link: https://gridlochgames.itch.io/21st-century-roguelike-pac-man
   image: /assets/images/headers/pac-man.png
 
 - name: Echosearch
-  type: game
+  type: Games
   link: https://gridlochgames.itch.io/echosearch
   image: /assets/images/headers/echosearch.png
 
 - name: Tiny Submarine
-  type: game
+  type: Games
   link: https://gridlochgames.itch.io/tiny-submarine
   image: /assets/images/headers/tiny-submarine.png
 

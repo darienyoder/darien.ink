@@ -13,21 +13,14 @@ layout: base
     </div>
 
     <div id="category-list">
-        {% for item in site.data.portfolio-categories %}
+        {% for category in site.data.categories %}
 
-            {% if item.link == "/software" %}
-                <h2 class="list-break">What I've been working on</h2>
-                {% for project in site.data.projects %}
-                    {% if project.type == "software" %}
-                        <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
-                    {% endif %}
-                {% endfor %}
-
-            {% else %}
-                {% if item.link == "/film" %}<h2 class="list-break">Creative Stuff</h2>{% endif %}
-
-                <a href="{{ item.link }}" style="background-image: url('{{ item.image }}');"><h2>{{ item.name }}</h2></a>
-            {% endif %}
+            <h2 class="list-break">category.name</h2>
+            {% for project in site.data.projects %}
+                {% if project.type == category.name %}
+                    <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
+                {% endif %}
+            {% endfor %}
 
         {% endfor %}
     </div>
