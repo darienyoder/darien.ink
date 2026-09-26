@@ -1,27 +1,108 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darien dot Ink</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-{%- include big-header.html -%}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+        }
 
-<main>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    <div id="post-content" class="wide">
-        <div id="post-margin">
-            {{ content }}
-        </div>
+        header {
+            width: 100%;
+            height: 400px;
+            /* background-color: #3498db; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            /* color: white; */
+            font-size: 200px;
+            text-align: center;
+        }
+
+        header h2 {
+            /* color: white; */
+            font-size: 80px;
+            text-align: center;
+        }
+
+        .projects-section {
+            margin-top: 20px;
+        }
+
+        .projects-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            /* color: #333; */
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            /* background-color: #e74c3c; */
+            /* aspect-ratio: 1; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .project-card:hover {
+            opacity: 0.9;
+        }
+
+        .project-card h3 {
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>welcome to</h2>
+            <div style="display:flex; flex-direction:row; align-items: flex-end">
+                <h1>Darien</h1>
+                <img height="50px" src="assets/images/darienball.gif">
+                <h1>Ink</h1>
+            </div>
+        </header>
+
+        <section class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" style="backgroundImage: url(/assets/images/headers/pac-man.png)" onclick="window.location.href='#project1'">
+                    <h3>21st Century Roguelike Pac-Man</h3>
+                </div>
+            </div>
+        </section>
     </div>
-
-    <div id="category-list">
-        {% for category in site.data.categories %}
-
-            <h2 class="list-break">{{ category.name }}</h2>
-            {% for project in site.data.projects %}
-                {% if project.type == category.name %}
-                    <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
-                {% endif %}
-            {% endfor %}
-
-        {% endfor %}
-    </div>
-</main>
+</body>
+</html>
