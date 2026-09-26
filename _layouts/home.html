@@ -65,6 +65,7 @@
         .project-card {
             /* background-color: #e74c3c; */
             /* aspect-ratio: 1; */
+            background-color: black;
             height: 200px;
             background-position: center;
             background-size: cover;
@@ -76,12 +77,12 @@
         }
 
         .project-card:hover {
-            opacity: 0.9;
+
         }
 
         .project-card h3 {
             color: white;
-            font-size: 24px;
+            font-size: 36px;
             text-align: center;
             padding: 20px;
         }
@@ -167,12 +168,13 @@
         <section class="projects-section">
             <h2>Projects</h2>
             <div class="projects-grid">
-                <div onclick="open_pane('21crpm')" class="project-card" style="background-image: url(/assets/images/headers/pac-man.png)" onclick="window.location.href='#project1'">
-                    <h3>21st Century Roguelike Pac-Man</h3>
+                {% for item in site.data.projects %}
+
+                <div onclick="open_pane('{{item.name}}')" class="project-card" style="background-image: url({{item.image}})">
+                    <h3>{{item.name}}</h3>
                 </div>
-                <div onclick="open_pane('destroydog')" class="project-card" style="background-image: url(/assets/images/headers/destroydog.png)" onclick="window.location.href='#project1'">
-                    <h3>DestroyDog</h3>
-                </div>
+
+                {% endfor %}
             </div>
         </section>
     </div>
@@ -219,8 +221,9 @@
 
     var project_data = {};
 
-    project_data["21crlpm"] = 'Hello!';
-    project_data["destroydog"] = 'Dog.';
+    {% for item in site.data.projects %}
+        project_data["{{item.name}}"] = '{{item.content}}';
+    {% endfor %}
 
     </script>
 </body>
