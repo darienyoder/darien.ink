@@ -26,18 +26,18 @@
 
 - name: DestroyDog
   image: /assets/images/headers/destroydog.png
-  content: >-
-    <h1>DestroyDog Bookmarklet</h1>
-    <p>DestroyDog is a javascript bookmarklet for destroying websites.
-    When launched, it aggressively deletes every element on the page
-    until only it remains. Good for dealing with unhelpful forum threads
-    or unskippable YouTube ads.</p>
-    <h2>How to use</h2>
-    <ol>
-      <li>Click and drag the link below into your bookmarks toolbar.</li>
-      <li>Click the bookmark whenever a website gets on your nerves.</li>
-      <a id="dd_link" href="">Loading...</a>
-    <img src="assets\/images\/headers\/destroydog.png" style="display:none;" onload="load_dd();">
+  content: |
+    <h1>DestroyDog Bookmarklet</h1> \
+    <p>DestroyDog is a javascript bookmarklet for destroying websites. \
+    When launched, it aggressively deletes every element on the page \
+    until only it remains. Good for dealing with unhelpful forum threads \
+    or unskippable YouTube ads.</p> \
+    <h2>How to use</h2> \
+    <ol> \
+      <li>Click and drag the link below into your bookmarks toolbar.</li> \
+      <li>Click the bookmark whenever a website gets on your nerves.</li> \
+      <a id="dd_link" href="">Loading...</a> \
+    <img src="assets\/images\/headers\/destroydog.png" style="display:none;" onload="load_dd();"> \
 
 - name: Sand prototype thing
   image: /assets/images/headers/falling-sand.png
