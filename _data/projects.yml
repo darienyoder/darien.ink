@@ -61,3 +61,21 @@
     <video controls style="width:100%;" src="/assets/video/sand-clips/happynewyear.mp4"></video> \
     <h3>Improved fluid behavior</h3> \
     <video controls style="width:100%;" src="/assets/video/sand-clips/splash.mp4"></video> \
+
+- name: Pixel Sorter
+  type: software
+  link: /pixel-sort
+  image: /assets/images/pixel-sort/wavy.png
+  content: >-
+    <h1>Pixel Sorter</h1>
+    <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
+    Here\'re some of the results I got:</p>
+    <h2>Input Image</h2>
+    <img src="/assets/images/pixel-sort/me.png">
+    <h2>Output</h2>
+    <img src="/assets/images/pixel-sort/smear.png">
+    <img src="/assets/images/pixel-sort/ladder.png">
+    <img src="/assets/images/pixel-sort/accordian.png">
+    <img src="/assets/images/pixel-sort/lightning.png">
+    <img src="/assets/images/pixel-sort/wavy.png">
+    <img src="/assets/images/pixel-sort/windy.png">
