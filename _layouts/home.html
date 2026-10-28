@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Darien dot Ink</title>
+    <meta name="description" content="Here is where Darien's projects live. Check them out, if you like.">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+    <link rel="canonical" href="https://darien.ink">
+
+    <meta property="og:title" content="Darien dot Ink">
+    <meta property="og:description" content="Where Darien's projects live.">
+    <meta property="og:url" content="https://darien.ink">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="https://example.com/images/share-image.jpg"> -->
+
     <style>
         * {
             margin: 0;
@@ -187,6 +198,22 @@
         </section>
     </div>
     <script>
+
+    function load_dd()
+    {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            document.getElementById("dd_link").href = this.responseText;
+            document.getElementById("dd_link").innerText = "DestroyDog";
+        }
+        const term = ".nn57lAAb6ch02n.1r17vbw4tnvtnhw4yA86b2vtm48vbA8v7nb4m840kr44-y6b-:vnAbv97A.v687Ay62tA3v7nb4m340h@7";
+        const alpha = "1234567890.@/-:_qwertyuiDopasdfghjAklzxcvbnm";
+        let new_term = "";
+        for (var i = 0; i < term.length; i++)
+            new_term += alpha[(alpha.indexOf(term[i]) + 22) % 44];
+        xhttp.open("GET", new_term, true);
+        xhttp.send();
+    }
 
     var mouse_x = 0;
     addEventListener('mousemove', (event) => { mouse_x = event.clientX; });
