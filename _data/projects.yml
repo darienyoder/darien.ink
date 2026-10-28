@@ -39,43 +39,43 @@
       <a id="dd_link" href="">Loading...</a> \
     <img src="assets\/images\/headers\/destroydog.png" style="display:none;" onload="load_dd();"> \
 
-- name: Sand prototype thing
-  image: /assets/images/headers/falling-sand.png
-  content: |
-    <h1>Falling Sand Sim</h1> \
-    <h2><a href="/releases/FallingSand.zip" download>Download</a> - \
-    <p>This is a cellular automata powder simulation written in C++, rendered in OpenGL. \
-    Each particle on a pixel grid simulates gravity, \
-    density, and temperature as it interacts with surrounding particles.</p> \
-    <h3>Initial prototype with gravity and temperature</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/sand_day_0.mp4"></video> \
-    <h3>Improved rendering for lava and steam</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/lavasteamshader.mp4"></video> \
-    <h3>Flammable materials</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/let-it-burn.mp4"></video> \
-    <h3>Explosions</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/kaboom.mp4"></video> \
-    <h3>Particles react to explosions</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/flyingsand.mp4"></video> \
-    <h3>Fireworks</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/happynewyear.mp4"></video> \
-    <h3>Improved fluid behavior</h3> \
-    <video controls style="width:100%;" src="/assets/video/sand-clips/splash.mp4"></video> \
+# - name: Sand prototype thing
+#   image: /assets/images/headers/falling-sand.png
+#   content: |
+#     <h1>Falling Sand Sim</h1> \
+#     <h2><a href="/releases/FallingSand.zip" download>Download</a> - \
+#     <p>This is a cellular automata powder simulation written in C++, rendered in OpenGL. \
+#     Each particle on a pixel grid simulates gravity, \
+#     density, and temperature as it interacts with surrounding particles.</p> \
+#     <h3>Initial prototype with gravity and temperature</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/sand_day_0.mp4"></video> \
+#     <h3>Improved rendering for lava and steam</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/lavasteamshader.mp4"></video> \
+#     <h3>Flammable materials</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/let-it-burn.mp4"></video> \
+#     <h3>Explosions</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/kaboom.mp4"></video> \
+#     <h3>Particles react to explosions</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/flyingsand.mp4"></video> \
+#     <h3>Fireworks</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/happynewyear.mp4"></video> \
+#     <h3>Improved fluid behavior</h3> \
+#     <video controls style="width:100%;" src="/assets/video/sand-clips/splash.mp4"></video> \
 
-- name: Pixel Sorter
-  type: software
-  link: /pixel-sort
-  image: /assets/images/pixel-sort/wavy.png
-  content: >-
-    <h1>Pixel Sorter</h1>
-    <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
-    Here\'re some of the results I got:</p>
-    <h2>Input Image</h2>
-    <img src="/assets/images/pixel-sort/me.png">
-    <h2>Output</h2>
-    <img src="/assets/images/pixel-sort/smear.png">
-    <img src="/assets/images/pixel-sort/ladder.png">
-    <img src="/assets/images/pixel-sort/accordian.png">
-    <img src="/assets/images/pixel-sort/lightning.png">
-    <img src="/assets/images/pixel-sort/wavy.png">
-    <img src="/assets/images/pixel-sort/windy.png">
+# - name: Pixel Sorter
+#   type: software
+#   link: /pixel-sort
+#   image: /assets/images/pixel-sort/wavy.png
+#   content: >-
+#     <h1>Pixel Sorter</h1>
+#     <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
+#     Here\'re some of the results I got:</p>
+#     <h2>Input Image</h2>
+#     <img src="/assets/images/pixel-sort/me.png">
+#     <h2>Output</h2>
+#     <img src="/assets/images/pixel-sort/smear.png">
+#     <img src="/assets/images/pixel-sort/ladder.png">
+#     <img src="/assets/images/pixel-sort/accordian.png">
+#     <img src="/assets/images/pixel-sort/lightning.png">
+#     <img src="/assets/images/pixel-sort/wavy.png">
+#     <img src="/assets/images/pixel-sort/windy.png">
